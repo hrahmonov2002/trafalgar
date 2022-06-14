@@ -1,0 +1,445 @@
+body{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 60px;
+}
+
+.head{
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+}
+
+.head_content{
+  width: 600px;
+  height: 20px;
+}
+
+.head_logo{
+  width: 160px;
+  height: 41px;
+}
+
+
+.head_list{
+  display: flex;
+  list-style-type: none;
+}
+
+.head_item{
+  text-align: center;
+  width: 100px;
+  }
+
+.head_link-1{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.head_link{
+  text-decoration: none;
+  color: #7D7987;
+}
+
+              
+
+
+ /* hero-corps */
+.hero{
+  display: flex;
+  height: 700px;
+  align-items: center;
+}
+
+.hero_content{
+  vertical-align: middle;
+  width: 600px;
+  height: 340px;
+}
+
+.hero_heading{
+font-weight: 700;
+line-height: 56px;
+font-size: 48px;
+}
+
+.hero_text{
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 21px; 
+  color: #7D7987;
+}
+
+.hero_link{
+  display: flex;
+  border-radius: 55px;
+  width: 180px;
+  height: 55px;
+  text-decoration: none;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FFFFFF;;
+  background-color: #458FF6;
+}
+
+.hero_photo{
+  vertical-align: middle;
+  width: 693px;
+  height: 598px;
+}
+
+
+
+              /* service_corps  */
+
+.service_title{
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.service_hr{
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.service_text{
+  text-align: center;
+  color: #7D7987;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.servicecorps{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 120px;
+}
+
+.servicecorps_content{
+  margin: 5px;
+  width: 350px;
+  height: 354px;
+}
+
+.servicecorps_photo-1{
+  width: 91px;
+  height: 90px;
+}
+
+.servicecorps_photo-2{
+  width: 61px;
+  height: 85px;
+}
+
+.servicecorps2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 135px;
+  justify-content: center;
+}
+
+.servicecorps2_content{
+  margin: 5px;
+  width: 350px;
+  height: 354px;
+}
+
+
+.servicecorps_photo-5{
+  width: 80px;
+  height: 71px;
+}
+
+.servicecorps_photo-6{
+  width: 69px;
+  height: 95px;
+}
+
+.servicecorps_title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.servicecorps_text{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.cite_link{
+  width: 85px;
+  height: 20px;
+  padding: 10px;
+  color: #458FF6;
+  border: 2px solid #458FF6;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+         /* providers_corps */
+
+.providers{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.providers_content{
+  width: 800px;
+}
+
+.providers_img{
+  width: 650px;
+  height: 477px;
+}
+
+.providers_content{
+  margin-left: 100px;
+  vertical-align: middle;
+  width: 550px;
+}
+
+.providers_title{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.providers_hr{
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.providers_text{
+  color: #7D7987;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+
+
+            /* 4-corps */
+
+  .mobile{
+    display: flex;
+  }
+
+  .mobile_content{
+    width: 520px;
+  }
+
+  .mobile_title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .mobile_hr{
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  .mobile_text{
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+
+
+
+
+                /* 5-corps */
+
+
+.couds{
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  width: 1120px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);;
+  border-radius: 24px;
+  margin-left: 70px;
+}
+
+.couds_title{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.couds_hr{
+  width: 56px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.cuods_profil-info{
+  display: flex;
+  width: 344px;
+}
+
+.cuods_profil-info-img{
+  width: 133px;
+  height: 133px;
+}
+
+.couds_profil-info-name{
+  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  line-height: 48px;
+}
+
+.couds_profil-info-job{
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.couds_text{
+  display: flex;
+  color: #fff;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  margin-left: 590px;
+}
+
+.character{
+margin-left: 500px;
+}
+
+
+
+              /* 6-corps */
+
+
+.article_content_box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+
+.article_heading{
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.article_hr{
+  width: 56px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.article_title{
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+.article_content{
+  width: 350px;
+  margin-right: 20px;
+}
+
+.article_text{
+  color: #7D7987;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.article_link{
+  text-decoration: none;
+  color: #4089ed;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.article_link-box{
+  text-align: center;
+}
+
+
+             /* 7-corps */
+
+
+.last_box{
+  display: flex;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%); ;
+}
+
+.last_box-content{
+  margin: 50px;
+}
+
+.last_box-text{
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 110px;
+}
+
+
+.last_box-link{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.last_list_box{ 
+  vertical-align: top;
+  margin-right: 150px;
+}
+
+.last_box-list{
+  list-style-type: none;
+}
+
+.last_box-item{
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.last_box-title{
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+}
+
